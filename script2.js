@@ -6,3 +6,4 @@ for (const key in order) {
     sum += order[key]["price"]
 }
 console.log("Вы заказали " + product + ` | Общая стоимость ${sum + 9000} сумм с доставкой (9000)`);
+console.log(order);
